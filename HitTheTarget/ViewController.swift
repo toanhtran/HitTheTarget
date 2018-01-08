@@ -65,14 +65,35 @@ class ViewController: UIViewController {
 	@IBAction func showAlert(){
 		
 		let difference = abs(targetValue - currentValue)
-		let points = 100 - difference
+		var points = 100 - difference
+		
+		if difference == 0 {
+			score += 100
+		} else if difference <= 1 {
+			score += 50
+		}
+		
+		let title: String
+		if difference == 0 {
+			title = "Wow, you are good! Perfect bullseye! Have you played this game before?"
+			points += 200
+		} else if difference < 5 {
+			title = "You were so close. You almost had it!"
+			if difference == 1 {
+				points += 50
+			}
+		} else if difference < 10 {
+			title = "Pretty good!"
+		} else {
+			title = "Not even close....maybe try again with both eyes open."
+		}
 		
 		score += points
-		
+
 	
 		let message = "You scored \(points) points"
 		
-		let alert = UIAlertController(title: "Hello World!", message: message, preferredStyle: .alert)
+		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
 		
 		let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
 		
