@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B30FBF520041BBC00EA54E0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30FBF420041BBC00EA54E0 /* AboutViewController.swift */; };
+		4B30FBF720046B4E00EA54E0 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30FBF620046B4E00EA54E0 /* AboutAuthorViewController.swift */; };
 		4BA7323E1FFEABF5006E21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */; };
 		4BA732401FFEABF5006E21EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7323F1FFEABF5006E21EE /* ViewController.swift */; };
 		4BA732431FFEABF5006E21EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA732411FFEABF5006E21EE /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		4B30FBF420041BBC00EA54E0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		4B30FBF620046B4E00EA54E0 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		4BA7323A1FFEABF5006E21EE /* HitTheTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTheTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA7323F1FFEABF5006E21EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */,
 				4BA7323F1FFEABF5006E21EE /* ViewController.swift */,
 				4BA732411FFEABF5006E21EE /* Main.storyboard */,
+				4B30FBF620046B4E00EA54E0 /* AboutAuthorViewController.swift */,
 				4B30FBF420041BBC00EA54E0 /* AboutViewController.swift */,
 				4BA732441FFEABF5006E21EE /* Assets.xcassets */,
 				4BA732461FFEABF5006E21EE /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				4B30FBF520041BBC00EA54E0 /* AboutViewController.swift in Sources */,
 				4BA732401FFEABF5006E21EE /* ViewController.swift in Sources */,
 				4BA7323E1FFEABF5006E21EE /* AppDelegate.swift in Sources */,
+				4B30FBF720046B4E00EA54E0 /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

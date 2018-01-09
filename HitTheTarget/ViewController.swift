@@ -86,7 +86,7 @@ class ViewController: UIViewController {
 		let title: String
 		if difference == 0 {
 			title = "Wow, you are good! Perfect bullseye! Have you played this game before?"
-			points += 200
+			points += 100
 		} else if difference < 5 {
 			title = "You were so close. You almost had it!"
 			if difference == 1 {
