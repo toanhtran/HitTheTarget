@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4B30FBF520041BBC00EA54E0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30FBF420041BBC00EA54E0 /* AboutViewController.swift */; };
 		4B30FBF720046B4E00EA54E0 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B30FBF620046B4E00EA54E0 /* AboutAuthorViewController.swift */; };
+		4B30FBF92005B51000EA54E0 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B30FBF82005B51000EA54E0 /* BullsEye.html */; };
 		4BA7323E1FFEABF5006E21EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */; };
 		4BA732401FFEABF5006E21EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7323F1FFEABF5006E21EE /* ViewController.swift */; };
 		4BA732431FFEABF5006E21EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BA732411FFEABF5006E21EE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		4B30FBF420041BBC00EA54E0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4B30FBF620046B4E00EA54E0 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
+		4B30FBF82005B51000EA54E0 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		4BA7323A1FFEABF5006E21EE /* HitTheTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitTheTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA7323F1FFEABF5006E21EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		4BA7323C1FFEABF5006E21EE /* HitTheTarget */ = {
 			isa = PBXGroup;
 			children = (
+				4B30FBF82005B51000EA54E0 /* BullsEye.html */,
 				4BA7323D1FFEABF5006E21EE /* AppDelegate.swift */,
 				4BA7323F1FFEABF5006E21EE /* ViewController.swift */,
 				4BA732411FFEABF5006E21EE /* Main.storyboard */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BA732481FFEABF5006E21EE /* LaunchScreen.storyboard in Resources */,
+				4B30FBF92005B51000EA54E0 /* BullsEye.html in Resources */,
 				4BA732451FFEABF5006E21EE /* Assets.xcassets in Resources */,
 				4BA732431FFEABF5006E21EE /* Main.storyboard in Resources */,
 			);
