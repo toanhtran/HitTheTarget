@@ -3,7 +3,7 @@ Play a fun iOS app and try and move the slider as close as you can to the target
 
 ## Table of Contents
 * [Technologies Used](#technologies)
-* [How to use MilSpouseCodersNewbies](#howtouse)
+* [How to use Hit The Target](#howtouse)
 
 ## <a name="technologies"></a> Technologies Used
 
